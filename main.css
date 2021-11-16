@@ -1,18 +1,29 @@
 *{
-    font-family: calibri;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#picture-of-me {
+body{
+    background-color: #466a95a4;
+}
+
+header{
+    position: sticky;
+    display: grid;
+    justify-content: center;
+    background-color: #466a95;
+}
+
+#picture-of-me img {
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    justify-items: center;
+    height: 300px;
+    width: 300px;
 }
 
-h1{
+h1, h2{
     text-align: center;
-}
-
-h2{
-    text-align: center;
+    color: rgb(206, 118, 36)
 }
 
 h3 {
@@ -22,11 +33,18 @@ h3 {
     font-size: 24px;
 }
 
+p{
+    text-align: center;
+}
+
+figure{
+    align-items: center;
+}
+
 .quality li{
     width: 75px;
     height: 50px;
     padding: 5px;
-    background-color: springgreen;
     color: red;
 }
 
@@ -34,13 +52,19 @@ h3 {
     color: green;
 }
 
+.resize-image{
+    height: 500px;
+    width: 500px;
+}
+
+
 .button {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
-    border: 2px solid white;
-    padding: 1px;
+    display: flex;
+    justify-content: center;
 }
 
 .button:hover{
