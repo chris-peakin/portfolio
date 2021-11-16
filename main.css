@@ -3,6 +3,8 @@
 }
 
 body{
+    display: block;
+    align-items: center;
     background-color: #466a95a4;
 }
 
@@ -14,9 +16,12 @@ header{
 }
 
 #picture-of-me img {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 20%;
+    border: solid white 2px;
     height: 300px;
     width: 300px;
 }
@@ -33,12 +38,17 @@ h3 {
     font-size: 24px;
 }
 
+ol{
+    text-align: center;
+}
+
 p{
     text-align: center;
 }
 
 figure{
     align-items: center;
+    text-align: center;
 }
 
 .quality li{
@@ -53,8 +63,10 @@ figure{
 }
 
 .resize-image{
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200x;
+    border-radius: 10%;
+    border: solid white 2px;
 }
 
 
