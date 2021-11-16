@@ -16,10 +16,6 @@ header{
 }
 
 #picture-of-me img {
-    display: block;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
     border-radius: 20%;
     border: solid white 2px;
     height: 300px;
