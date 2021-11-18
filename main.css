@@ -60,24 +60,40 @@ figure{
 
 .resize-image{
     height: 200px;
-    width: 200x;
     border-radius: 10%;
     border: solid white 2px;
 }
 
+.text-under-pics{
+    color: white;
+}
+
+.text-under-pics:hover{
+    color: black;
+}
 
 .button {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #954677;
+    color: rgba(0, 253, 253, 0.658);
     display: flex;
     justify-content: center;
+    border: 2px solid white;
 }
 
 .button:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+    background-color: rgba(0, 253, 253, 0.658);
+    color: #954677;
+    border: 2px solid #954677;
 }
 
+.link-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hobby-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
