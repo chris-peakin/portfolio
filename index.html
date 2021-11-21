@@ -10,8 +10,8 @@
     <h2>Manchester Codes Student Software Engineer - October 2021 Cohort</h2>
     <h2>Slogans pale before substance. If you can walk the walk, you can talk the talk.</h2>
     <section class="link-section">
-    <a href="./pages/contact.html" class="button">Contact</a>
-    <a href="./pages/projects.html" class="button">Projects</a> 
+    <a href="#contact-me-id" class="button">Contact</a>
+    <a href="#projects-id" class="button">Projects</a> 
     </section>
     </header>
     <h3>About me</h3>
@@ -55,12 +55,23 @@
     </section>
     <br/>
 <section class="project-section">
-<h3>Projects</h3>
-
+<h3 id="projects-id">Projects</h3>
+<table class="table-class">
+    <tr class="table-row">
+        <th>Project Name</th>
+        <th>Brief Description</th>
+        <th>Image</th>
+    </tr>
+    <tr class="table-row">
+        <td>Dissolution Function</td>
+        <td>A brief function simulating the dissolution test on solid dose pharma products.</td>
+        <td>Image to go here</td>
+    </tr>
+</table>
 </section>
 <br/>
 <section class="contact-section-alpha">
-    <h3>Contact me</h3>
+    <h3 id="contact-me-id">Contact me</h3>
     <p>I'd really like to hear from you if you want to work together. If you want to get in touch, use the form below.</p>
     <p>Please enter your username, email address and what you'd like to talk about.</p>
     <br />
@@ -68,20 +79,24 @@
 <section class="contact-section-omega">
     <label>
         Name:
-        <input type="text" value="name">
+        <input type="text" value="name" size="25">
     </label>
     <br />
     <label>
         Email:
-        <input type="email" value="email">
+        <input type="email" value="email" size="50">
     </label>
     </section>
     <br />
     <section class="contact-section-delta">
     <label>
         What would you like to talk about?:
-        <input type="text" value="message">
+        <input type="text" value="message" id="message-box">
     </label>
+</section>
+<br/>
+<section id="submit-button">
+<input type="submit" value="Submit">
 </section>
     <footer>2021 - Chris Peakin</footer>
 </body>
